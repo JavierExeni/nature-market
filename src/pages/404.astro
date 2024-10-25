@@ -1,0 +1,50 @@
+---
+import Layout from "@layouts/Layout.astro";
+---
+
+<Layout title="Página no encontrada">
+  <section class="page_404 my-20">
+    <div class="container max-w-[1440px] mx-auto">
+      <h1 class="text-center text-8xl font-bold">404</h1>
+      <div class="four_zero_four_bg"></div>
+
+      <div class="contant_box_404 text-center">
+        <h3 class="h2">Parecer que te has perdido</h3>
+
+        <p>¡La página que estás buscando no esta disponible!</p>
+
+        <a href="/" class="link_404">Regresar a Inicio</a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .page_404 {
+    padding: 40px 0;
+    background: #fff;
+  }
+
+  .page_404 img {
+    width: 100%;
+  }
+
+  .four_zero_four_bg {
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 450px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .link_404 {
+    color: #fff !important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+  }
+  .contant_box_404 {
+    margin-top: -50px;
+  }
+</style>
